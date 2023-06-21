@@ -22,3 +22,4 @@ urlpatterns = [
     path('api-auth/',include('rest_framework.urls')),
     path('',include('to_do_lists.urls'))
 ]
+urlpatterns += staticfiles_urlpatterns() # new
